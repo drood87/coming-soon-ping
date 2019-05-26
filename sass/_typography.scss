@@ -1,0 +1,17 @@
+.heading-1 {
+  font-size: 2rem;
+  color: var(--color-neutral-grey);
+  font-weight: 300;
+
+  &--bold {
+    font-weight: 700;
+    color: var(--color-neutral-blue-dark);
+  }
+}
+
+.heading-2 {
+  font-size: 1.1rem;
+  color: var(--color-neutral-blue-dark);
+  font-weight: 300;
+  justify-self: center;
+}
