@@ -1,0 +1,29 @@
+.form {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  grid-gap: 1rem;
+  align-items: start;
+
+  &__input {
+    padding: 1rem 4rem 1rem 1rem;
+    grid-column: 1 / span 4;
+    border-radius: 100px;
+    display: block;
+    font-size: 0.5rem;
+    outline: none;
+
+    &::-webkit-input-placeholder {
+      font-size: 1.1rem;
+    }
+  }
+
+  &__btn {
+    border: none;
+    grid-column: 5 / 6;
+  }
+}
